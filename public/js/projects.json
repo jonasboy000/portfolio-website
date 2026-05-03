@@ -10,7 +10,7 @@
     "title": "Dungeon crawler game",
     "description": "fun dungeon crawler game",
     "url": "#",
-    "external": true,
+    "external": false,
     "tags": ["placeholder"]
   }
 ]
