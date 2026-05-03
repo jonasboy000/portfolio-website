@@ -5,7 +5,7 @@
     "url": "https://spellblade-rpg.com/world/western-provinces",
     "external": true,
     "tags": ["ejs", "CSS", "JavaScript"]
-  }
+  },
   {
     "title": "Dungeon crawler game",
     "description": "fun dungeon crawler game",
