@@ -1,0 +1,50 @@
+<%- include("../partials/head") %> <%- include("../partials/header") %>
+
+<main id="main-content">
+  <h1 class="page-title">Contact</h1>
+
+  <section class="contact-card" aria-labelledby="contact-heading">
+    <img
+      src="/images/Profile-Picture.jpg"
+      alt="Profielfoto van Jonas Deschaek"
+      class="contact-avatar"
+    />
+
+    <h2 id="contact-heading"><span>Jonas</span> Deschaek</h2>
+
+    <dl class="contact-row">
+      <dt class="contact-label">Woonplaats</dt>
+      <dd class="contact-value">Wielsbeke (8710) / Antwerpen (2000)</dd>
+
+      <dt class="contact-label">Telefoon</dt>
+      <dd class="contact-value">
+        <a href="tel:+32495368295">+32 495 36 82 95</a>
+      </dd>
+
+      <dt class="contact-label">Persoonlijk e-mail</dt>
+      <dd class="contact-value">
+        <a href="mailto:jonasdeschaek000@gmail.com"
+          >jonasdeschaek000@gmail.com</a
+        >
+      </dd>
+
+      <dt class="contact-label">School e-mail</dt>
+      <dd class="contact-value">
+        <a href="mailto:jonas.deschaek@student.ap.be"
+          >jonas.deschaek@student.ap.be</a
+        >
+      </dd>
+    </dl>
+
+    <a
+      href="/downloads/cv-jonas-deschaek.pdf"
+      download
+      class="btn-primary"
+      aria-label="Download CV van Jonas Deschaek als PDF"
+    >
+      Download CV
+    </a>
+  </section>
+</main>
+
+<%- include("../partials/footer") %>

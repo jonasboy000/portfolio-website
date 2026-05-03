@@ -1,0 +1,77 @@
+:root {
+  --green: oklch(72.3% 0.219 149.579);
+  --bg: oklch(8% 0.008 223.9);
+  --glass: color-mix(in oklab, oklch(21.8% 0.008 223.9) 60%, transparent);
+  --border: oklch(27.5% 0.011 216.9);
+  --muted: oklch(72.3% 0.014 214.4);
+  --text: white;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  max-width: 85%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.card {
+  background: var(--glass);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+  padding: 1.75rem;
+}
+
+.btn-primary {
+  padding: 0.5rem 1.4rem;
+  border-radius: 999px;
+  background: var(--green);
+  color: var(--bg);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: filter 0.2s;
+  display: inline-block;
+}
+.btn-primary:hover {
+  filter: brightness(1.12);
+}
+
+.btn-secondary {
+  padding: 0.5rem 1.4rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background 0.2s;
+  display: inline-block;
+}
+.btn-secondary:hover {
+  background: var(--border);
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 2rem 1rem;
+    max-width: 100%;
+  }
+  .btn-primary,
+  .btn-secondary {
+    text-align: center;
+  }
+}

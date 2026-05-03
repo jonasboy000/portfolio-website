@@ -1,0 +1,116 @@
+.page-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+  text-align: center;
+}
+
+.page-subtitle {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.collections-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem;
+  list-style: none;
+  padding: 0;
+}
+
+.collection-item {
+  width: calc(25% - 1.25rem);
+  min-width: 220px;
+}
+
+.collection-card {
+  background: var(--glass);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  transition:
+    transform 0.3s,
+    border-color 0.3s,
+    box-shadow 0.3s;
+  height: 100%;
+}
+.collection-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--green);
+  box-shadow: 0 0 24px oklch(65% 0.15 149 / 0.2);
+}
+.collection-card a {
+  display: block;
+  text-decoration: none;
+  color: var(--text);
+}
+.collection-card figure {
+  margin: 0;
+}
+
+.card-thumb {
+  width: 100%;
+  aspect-ratio: 16/9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  background: oklch(12% 0.006 223.9);
+  transition: transform 0.3s;
+}
+.collection-card:hover .card-thumb {
+  transform: scale(1.05);
+}
+
+figcaption.card-body {
+  padding: 0.85rem 1rem;
+  border-top: 1px solid var(--border);
+}
+figcaption.card-body h2 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin-bottom: 0.2rem;
+}
+figcaption.card-body p {
+  font-size: 0.78rem;
+  color: oklch(52% 0.01 220);
+}
+
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.6rem;
+  list-style: none;
+  padding: 0;
+}
+.card-tags li {
+  display: flex;
+}
+.card-tags li::before {
+  content: none;
+}
+
+.card-tag {
+  font-size: 0.72rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+}
+
+@media (max-width: 600px) {
+  .collections-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .collection-item {
+    width: 100%;
+    min-width: unset;
+  }
+}

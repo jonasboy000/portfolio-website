@@ -1,0 +1,9 @@
+[
+  {
+    "title": "SpellBlade TTRPG",
+    "description": "Tabletop RPG website with an interactive hex map",
+    "url": "https://spellblade-rpg.com/",
+    "external": true,
+    "tags": ["Web", "JavaScript", "CSS"]
+  }
+]

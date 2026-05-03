@@ -1,0 +1,9 @@
+footer {
+  padding: 1rem 7.5%;
+  border-top: 1px solid var(--border);
+  background: var(--glass);
+  backdrop-filter: blur(12px);
+  text-align: center;
+  font-size: 0.82rem;
+  color: oklch(45% 0.01 220);
+}
