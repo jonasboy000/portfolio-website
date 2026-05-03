@@ -1,9 +1,16 @@
 [
   {
-    "title": "SpellBlade TTRPG",
+    "title": "Interactive rpg map",
     "description": "Tabletop RPG website with an interactive hex map",
-    "url": "https://spellblade-rpg.com/",
+    "url": "https://spellblade-rpg.com/world/western-provinces",
     "external": true,
-    "tags": ["Web", "JavaScript", "CSS"]
+    "tags": ["ejs", "CSS", "JavaScript"]
+  }
+  {
+    "title": "Dungeon crawler game",
+    "description": "fun dungeon crawler game",
+    "url": "#",
+    "external": true,
+    "tags": ["placeholder"]
   }
 ]
