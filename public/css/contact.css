@@ -37,8 +37,8 @@ dl.contact-row {
   grid-template-columns: auto 1fr;
   gap: 0.5rem 1.5rem;
   align-items: baseline;
-  align-self: flex-start;
-  width: 100%;
+  align-self: center;
+  margin: 0 auto;
 }
 
 .contact-label {
