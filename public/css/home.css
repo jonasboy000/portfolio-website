@@ -232,6 +232,16 @@ dl.info-grid {
     color: var(--green);
   }
 
+    .about-section ul.skills-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .skills-row li::before {
+    content: none;
+  }
+}
   dl.info-grid {
     grid-template-columns: auto 1fr;
     gap: 0.4rem 1rem;
