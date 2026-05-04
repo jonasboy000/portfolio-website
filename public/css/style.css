@@ -7,10 +7,6 @@
   --text: white;
 }
 
-html {
-  scrollbar-gutter: stable;
-}
-
 body {
   background-color: var(--bg);
   color: var(--text);
@@ -19,7 +15,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 main {
   flex: 1;
   max-width: 85%;

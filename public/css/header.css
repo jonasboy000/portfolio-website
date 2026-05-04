@@ -2,15 +2,19 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
   border-bottom: 1px solid var(--border);
   background: var(--glass);
   backdrop-filter: blur(12px);
   position: sticky;
   top: 0;
   z-index: 10;
-  width: 100%;
+  margin-right: calc(-1 * (100vw - 100%));
 }
-
+html {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
 .header-inner {
   display: flex;
   align-items: center;

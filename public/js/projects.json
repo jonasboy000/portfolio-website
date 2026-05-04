@@ -2,7 +2,7 @@
   {
     "title": "Interactive rpg map",
     "description": "Tabletop RPG website with an interactive hex map",
-    "image": "/images/spellblade-Logo.png",
+    "image": "/images/Spellblade-Logo.png",
     "url": "https://Spellblade-rpg.com/world/western-provinces",
     "external": true,
     "tags": ["ejs", "CSS", "JavaScript"]
