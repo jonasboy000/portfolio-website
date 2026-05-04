@@ -9,8 +9,8 @@
   {
     "title": "Dungeon crawler game",
     "description": "fun dungeon crawler game",
-    "url": "#",
-    "external": false,
-    "tags": ["placeholder"]
+    "url": "https://jonasboy000.github.io/dungeon-crawler",
+    "external": true,
+    "tags": ["TypeScript", "Canvas", "Game"]
   }
 ]
