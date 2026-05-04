@@ -232,7 +232,7 @@ dl.info-grid {
     color: var(--green);
   }
 
-    .about-section ul.skills-row {
+  .about-section ul.skills-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -241,7 +241,6 @@ dl.info-grid {
   .skills-row li::before {
     content: none;
   }
-}
   dl.info-grid {
     grid-template-columns: auto 1fr;
     gap: 0.4rem 1rem;
@@ -249,5 +248,9 @@ dl.info-grid {
 
   .info-label {
     margin-top: 0.6rem;
+  }
+  .about-section:hover {
+    background: none;
+    border-color: transparent;
   }
 }
