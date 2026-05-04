@@ -55,10 +55,8 @@
 .card-thumb {
   width: 100%;
   aspect-ratio: 16/9;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.5rem;
+  object-fit: cover;
+  display: block;
   background: oklch(12% 0.006 223.9);
   transition: transform 0.3s;
 }

@@ -2,7 +2,7 @@
 <%- include("../partials/header") %>
 
 <main id="main-content">
-  <h1 class="page-title">Projecten</h1>
+  <h1 class="page-title">Projects</h1>
   <p class="page-subtitle">Klik op een project voor meer informatie</p>
 
   <ul class="collections-grid" role="list" aria-label="Projectenlijst">
@@ -15,21 +15,23 @@
             <a href="<%= project.url %>">
           <% } %>
             <figure>
-              <div class="card-thumb" role="img" aria-label="<%= project.title %> icoon">
-                <%= project.thumb %>
-              </div>
-              <figcaption class="card-body">
-                <h2><%= project.title %></h2>
-                <p><%= project.description %></p>
-                <% if (project.tags && project.tags.length) { %>
-                  <ul class="card-tags" role="list" aria-label="Technologieën">
-                    <% project.tags.forEach(tag => { %>
-                      <li><span class="card-tag"><%= tag %></span></li>
-                    <% }) %>
-                  </ul>
-                <% } %>
-              </figcaption>
-            </figure>
+  <img 
+    src="<%= project.image %>" 
+    alt="<%= project.title %>" 
+    class="card-thumb"
+  />
+  <figcaption class="card-body">
+    <h2><%= project.title %></h2>
+    <p><%= project.description %></p>
+    <% if (project.tags && project.tags.length) { %>
+      <ul class="card-tags" role="list" aria-label="technologies">
+        <% project.tags.forEach(tag => { %>
+          <li><span class="card-tag"><%= tag %></span></li>
+        <% }) %>
+      </ul>
+    <% } %>
+  </figcaption>
+</figure>
           </a>
         </article>
       </li>

@@ -2,13 +2,15 @@
   {
     "title": "Interactive rpg map",
     "description": "Tabletop RPG website with an interactive hex map",
-    "url": "https://spellblade-rpg.com/world/western-provinces",
+    "image": "/images/spellblade-Logo.png",
+    "url": "https://Spellblade-rpg.com/world/western-provinces",
     "external": true,
     "tags": ["ejs", "CSS", "JavaScript"]
   },
   {
     "title": "Dungeon crawler game",
     "description": "fun dungeon crawler game",
+    "image": "/images/Dungeon-Crawler-Logo.png",
     "url": "https://jonasboy000.github.io/dungeon-crawler",
     "external": true,
     "tags": ["TypeScript", "Canvas", "Game"]
