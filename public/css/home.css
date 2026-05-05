@@ -248,6 +248,9 @@ dl.info-grid {
     gap: 0.4rem 1rem;
   }
 
+  .col-right .about-section {
+    padding-left: 0rem;
+  }
   .info-label {
     margin-top: 0.6rem;
     font-size: 0.8rem;
